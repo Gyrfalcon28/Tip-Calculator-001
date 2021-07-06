@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="Tip_Calculator.js" defer></script>
+    <link rel="stylesheet" href="Tip_Calculator.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <form class="calculator" method="get">
+        <label id="label-1">Cost of Meal: </label>
+        <input id="mealCost" type="text" placeholder="Enter Cost">
+        <label id="label-2">Tip Percentage: </label>
+        <input id="tipPercentage" type="text" placeholder="Enter Whole Number">
+        <button id="submit_btn" onClick="calculateTip()" type"submit" name="button">Submit</button>
+        <button id="reset_btn" onClick="refreshPage()" type="reset" name="button">Reset</button>
+      </form>
+
+    </div>
+
+
+  </body>
+</html>
